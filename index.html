@@ -1,0 +1,58 @@
+<html><head><title>Play Uno Online | Uno Freak</title><meta name="description" content="UnoFreak.com allows you to play Uno online with other players right from your web browser easily and for free!">
+<meta name="keywords" content="uno,freak,online,multiplayer,free,web,browser,html5,cards,game,unofreak,ranking,ranked,play,players,people,community,simulation,simulator,bots,stacking,doubles,unlimited">
+<meta name="robots" content="index, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link id="theme" rel="stylesheet" type="text/css" href="https://cdn7.cf/style.css?1" title="theme"><script src="https://cdn7.cf/1.js?1" type="text/javascript"></script></head>
+<body>
+<div class="preload"><div class="loader"></div></div>
+<script type="text/javascript">setTimeout(function() {Lobby();}, 3000);</script>
+<div id="topnav"><ul>
+<li id="current" style="border:none"><a href="/" shape="rect">Home</a></li>
+<li><a href="create" shape="rect">Join a Game (Play)</a></li>
+<li><a href="ranking" shape="rect">Ranking</a></li>
+<li><a href="support" shape="rect">Support</a></li>
+</ul></div><div id="wrapper">
+<div id="bg"><div id="header"></div><div id="page"><div id="container"><div id="content"><div id="maincenter">
+<br>
+<div class="title_welcome"><span class="orange">UnoFreak.com Cards</span> (web-based)</div>
+<div class="welcome_box">
+<p class="welcome">
+<span class="yellow">Play web-based Uno Freak!</span><br>
+This website allows you to play 'Uno Freak' with other people, on your web browser <span style="display:none;">(HTML5)</span> without having to download or install any software, easily and for free. Registration isn't required, although it's recommended that you register for an account to enjoy features such as nicknames, messenger, ranking, and more!</p>
+</div>
+<div class="features">   
+<div class="titlem">Game Information:</div>
+<div class="news_box">
+<div class="news_icon"></div><div class="news_content">Uno Freak Game Interface has been updated. The list of game commands can be viewed on the <a href="guide" style="color:#5BC5FF;">Game Guide</a>.<br><br></div><br>
+<div class="news_icon"></div><div class="news_content">Uno Freak Game Ranking has been updated. Uno simulation bots have joined the the <a href="bot" style="color:#FF780C;">Bot Ranking</a>.<br><br></div><br>
+<div style="display:none;"><div class="news_icon"></div><div class="news_content">Uno Freak currently supports Unlimited Players, Card Stacking, and Card Doubles.<br><br></div><br></div>
+<div class="news_icon"></div><div class="news_content">Uno Freak Game Lobby has been updated. Private Uno Games can now be entered through the game lobby! To enter a private room, simply click join and enter the room password.<br><br></div><br>
+<div class="news_icon"></div><div class="news_content">Uno Freak Game Interface has been updated. Uno bots are no longer busy and will join your game! The options for Uno Bots and Game Simulation are now available again. If you encounter any bugs, please report them through Support.<br><br></div><br>
+<div class="news_icon"></div><div class="news_content">Uno Freak game simulation  allows you to spectate on games, completely played by bots, for entertainment or analysis purposes. This Uno simulator may help in improving your Uno skills. To spectate, simply click "Join", through the Uno simulation game, found on the game lobby.<br><br></div><br>
+<div class="news_icon"></div><div class="news_content">Uno Freak one-player games are available. In addition, an option for 'Uno Bots' is available when creating a room!<br><br></div><br>
+<div class="news_icon"></div><div class="news_content">Uno Freak accounts are available. Register as fast as you can to snatch a nickname you want to have!</div><br>
+<div class="news_icon"></div><div class="news_content">You gain points by playing and winning against other real players (No bots and unregistered players). Your points are saved and shown on the <a href="ranking" style="color:#FF780C;">Uno Freak Ranking</a>.</div>
+</div>
+</div>
+</div>
+<div id="mainright"> 
+<div id="sidebar">
+<div class="clear" style="height:10px"></div><div class="apptext">Members</div><div id="loginbox" class="login_box">
+<div class="quickjoin2">Account Information</div>
+<div class="clear" style="height:10px"></div>
+<form method="post" onsubmit="sendlogin();return false" autocomplete="off">
+<table border="0" style="margin-left:auto; margin-right:auto; ">
+<tbody><tr><td align="right">Username:</td><td><input id="accuser" type="text" maxlength="20" name="accountname" autocomplete="off" value="" class="login_input"></td></tr>
+<tr><td align="right">Password:</td><td><input id="accpw" type="password" maxlength="20" name="accountpw" autocomplete="off" value="" class="login_input"></td></tr>
+</tbody></table>
+<div class="clear" style="height:5px"></div>
+<input type="hidden" name="login" value="login"><input type="image" value="" class="login">
+</form>
+<div class="clear" style="height:4px"></div><div style="font-size:11px;">Don't have an account? <a href="register" style="font-size:12px;">Register here!</a><div class="clear" style="height:2px"></div>Forgot Password? <a href="recover" style="font-size:12px;">Recover Account</a></div><div class="clear" style="height:4px"></div></div><center><div id="loginstatus">&nbsp;</div></center>
+<div id="lobby"><div class="clear" style="height:5px"></div><div class="apptext">Game Lobby</div><form method="post" action=""><table id="gamelobby"><tbody><tr><th class="lobbyh">Room Name</th><th class="lobbyh">Master</th><th class="lobbyh">Status</th><th class="lobbyh">Type</th><th class="lobbyh">Join</th></tr><tr class="lobbyr"><td>Remeteretek</td><td>Xx69DestroyerxX</td><td>Waiting</td><td>Private</td><td><button class="lobbyjoin" type="submit" name="lobbyjoin" value="Remeteretek" onclick="var key=prompt('This room is password-protected. Enter the room password:','');if(!key){return false;};document.getElementById('key').value=key;">Join</button></td></tr><tr class="lobbyr" style="background:#177978;"><td>UnoFreak</td><td>Bot_1</td><td>Simulation</td><td>Bots</td><td><button class="lobbyjoin" type="submit" name="lobbyjoin" value="UnoFreak">Join</button></td></tr><tr></tr></tbody></table><table id="gamelobby2"><tbody><tr><td>Rooms Found: 2</td></tr></tbody></table><input id="key" type="hidden" name="key" value=""></form><div class="clear" style="height:10px"></div></div>
+</div></div>
+<div class="clear" style="height:40px"></div></div></div></div>
+<div id="footerWrapper"><div id="footer"><p style="padding-top:10px"><a href="https://play.unofreak.com" shape="rect">UnoFreak.com © 2019</a> - <a href="terms" style="color:#4ebdd1;">Terms of Service</a></p></div></div>
+</div></div>
+
+</body></html>
